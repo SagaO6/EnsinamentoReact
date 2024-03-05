@@ -7,21 +7,28 @@ import Perfil from '../Perfil/Perfil'
 const Main = () => {
 
     return (
-
-            <main className='perfis'>
+        <>
+            <div className='perfis'>
 
                 <h1 className='t-center'>DeadCells</h1>
 
-                <div>
+                <Perfil img={Image} titulo={'Wallpaper'} />
+                <Perfil img={Image2} titulo={'Titulo'} />
+                <Perfil img={Image3} titulo={'Personagem'} />
 
-                    <Perfil img={Image} titulo={'Wallpaper'} />
-                    <Perfil img={Image2} titulo={'Titulo'} />
-                    <Perfil img={Image3} titulo={'Personagem'} />
+            </div>
 
-                </div>
+            <div className='perfis'>
 
-            </main>
+                <h1 className='t-center'>DeadCells</h1>
 
+                <Perfil img={Image} titulo={'Wallpaper'} />
+                <Perfil img={Image2} titulo={'Titulo'} />
+                <Perfil img={Image3} titulo={'Personagem'} />
+
+            </div>
+
+        </>
     )
 
 }
