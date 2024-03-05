@@ -7,33 +7,36 @@ import './Main.css'
 const Main = () => {
 
     return (
+        <>
+            <main className='perfis'>
 
-        <main>
+                <h1 className='t-center'>DeadCells</h1>
 
-            <div>
+                <div className='t-center'>
 
-                <img src={Image} />
-                <h2></h2>
+                    <img src={Image} />
+                    <h2>Wallpaper</h2>
 
-            </div>
+                </div>
 
-            <div>
+                <div className='t-center'>
 
-                <img src={Image2} />
-                <h2></h2>
+                    <img src={Image2} />
+                    <h2>Titulo</h2>
 
-            </div>
+                </div>
 
-            <div>
+                <div className='t-center'>
 
-                <img src={Image3} />
-                <h2></h2>
+                    <img src={Image3} />
+                    <h2>Personagem</h2>
 
-            </div>
+                </div>
 
 
-        </main>
+            </main>
 
+        </>
     )
 
 }
