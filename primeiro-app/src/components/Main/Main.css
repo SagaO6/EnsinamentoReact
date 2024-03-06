@@ -7,13 +7,14 @@
 
 .perfis div img {
 
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 800px;
 
 }
 
 .t-center{
 
 text-align: center;
+font-size: 50px;
 
 }

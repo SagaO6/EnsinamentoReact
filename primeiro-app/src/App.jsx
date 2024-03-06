@@ -1,4 +1,5 @@
 import './App.css'
+import Descricao from './components/Descricao/Descricao';
 
 import Header from './components/Header/header';
 import Main from './components/Main/Main'
@@ -9,9 +10,11 @@ function App() {
 
     <div>
 
-      <Header />
+      {/* <Header />
 
-      <Main />
+      <Main /> */}
+
+      <Descricao />
 
     </div>
 
