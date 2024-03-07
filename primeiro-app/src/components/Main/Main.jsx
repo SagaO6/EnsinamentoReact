@@ -1,6 +1,6 @@
-import Image from '../../images/imagem 1.webp'
+import Image from '../../images/imagem 1.jpg'
 import Image2 from '../../images/imagem 2.jpg'
-import Image3 from '../../images/image 3.webp'
+import Image3 from '../../images/image 3.jpg'
 import './Main.css'
 import Equipe from '../Equipe/Equipe'
 

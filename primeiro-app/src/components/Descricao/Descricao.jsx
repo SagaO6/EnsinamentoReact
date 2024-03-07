@@ -1,18 +1,24 @@
-import Image from '../../images/image 3.webp'
+import Image from '../../images/image 3.jpg'
 import './Descricao.css'
-import Equipe from '../Equipe/Equipe'
+
 
 const Descricao = () => {
 
     return (
+
         <>
 
-            
+            <h1>Mude</h1>
 
-            <div className='text'>
-            <img src = {Image} />
-                <h1>Mude</h1>
-                <p>Eis aqui uma descrição que eu irei mudar quando chegar em casa. <br></br>Thiago altere essa merda logo.<br></br>-Thiago Rivas, 2024</p>
+            <div className='dividir'>
+
+                <img className = 'imgDescricao' src={Image} />
+
+                <div className='text'>
+
+                    <p>"Eis aqui uma descrição que eu irei mudar quando chegar em casa. <br></br>Thiago altere essa merda logo."<br></br>-Thiago Rivas, 2024</p>
+
+                </div>
 
             </div>
 

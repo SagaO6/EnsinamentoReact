@@ -4,7 +4,22 @@ margin: 30px;
 
 }
 
+img{
+
+width: 150%;
+
+
+}
+
 :root {
+
   color-scheme: light dark;
   background-color: #242424;
+
+}
+
+.text{
+
+display: flex;
+
 }
