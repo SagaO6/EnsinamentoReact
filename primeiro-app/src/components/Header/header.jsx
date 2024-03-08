@@ -7,7 +7,7 @@ const Header = () => {
         <header className = 'menu'>
 
             <img src={Logo} />
-            <h1>Exibe Perfil</h1>
+            <h1>Exibir Perfil</h1>
 
         </header>
     )

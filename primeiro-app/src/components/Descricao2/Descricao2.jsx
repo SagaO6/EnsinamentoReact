@@ -1,4 +1,4 @@
-import Image2 from '../../images/imagem 1.jpg'
+import Papyrus from '../../images/Papyrus.png'
 import '../Descricao/Descricao.css'
 
 const Descricao2 = () => {
@@ -7,15 +7,15 @@ const Descricao2 = () => {
 
         <>
 
-            <h1>Vou pensar depois</h1>
+            <h1>Papyrus</h1>
 
             <div className='dividir'>
 
-                <img className = 'imgDescricao' src={Image2} />
+                <img className = 'imgDescricao' src={Papyrus} />
 
                 <div className='text'>
 
-                    <p>"Com calma e jeito chega-se ao cu <br /> de qualquer sujeito"<br />- Minha vó, 2005</p>
+                    <p>"Com calma e jeito chega-se ao cu <br /> de qualquer sujeito"<br />- Papyrus</p>
 
                 </div>
 

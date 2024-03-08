@@ -1,4 +1,4 @@
-import Image3 from '../../images/imagem 2.jpg'
+import Frisk from '../../images/frisk.png'
 import '../Descricao/Descricao.css'
 
 const Descricao3 = () => {
@@ -7,15 +7,15 @@ const Descricao3 = () => {
 
         <>
 
-            <h1>O que colocar ?</h1>
+            <h1>Frisk</h1>
 
             <div className='dividir'>
 
-                <img className = 'imgDescricao' src={Image3} />
+                <img className = 'imgDescricao' src={Frisk} />
 
                 <div className='text'>
 
-                    <p>"Foda-se"<br />- Saiko, 2023</p>
+                    <p>"Foda-se"<br />- Frisk</p>
 
                 </div>
 

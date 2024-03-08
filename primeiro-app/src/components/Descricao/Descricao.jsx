@@ -1,4 +1,4 @@
-import Image from '../../images/image 3.jpg'
+import Sans from '../../images/Sans.png'
 import './Descricao.css'
 
 
@@ -8,15 +8,15 @@ const Descricao = () => {
 
         <>
 
-            <h1>Mude</h1>
+            <h1>Sans</h1>
 
             <div className='dividir'>
 
-                <img className = 'imgDescricao' src={Image} />
+                <img className = 'imgDescricao' src={Sans} />
 
                 <div className='text'>
 
-                    <p>"Eis aqui uma descrição que eu irei mudar quando chegar em casa. <br></br>Thiago altere essa merda logo."<br></br>-Thiago Rivas, 2024</p>
+                    <p>"Eis aqui uma descrição que eu irei mudar quando chegar em casa. <br></br>Thiago altere essa merda logo."<br></br>- Sans</p>
 
                 </div>
 

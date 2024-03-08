@@ -16,11 +16,11 @@ function App() {
 
       <Main />
 
-      {/* <Descricao />
+      <Descricao />
 
-      <Descricao2/> */}
+      <Descricao2/>
 
-      {/* <Descricao3/> */}
+      <Descricao3/>
 
     </div>
 
