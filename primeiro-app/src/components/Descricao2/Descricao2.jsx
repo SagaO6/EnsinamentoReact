@@ -1,5 +1,5 @@
 import Papyrus from '../../images/Papyrus.png'
-import '../Descricao/Descricao.css'
+import './Descricao2.css'
 
 const Descricao2 = () => {
 
@@ -13,9 +13,10 @@ const Descricao2 = () => {
 
                 <img className = 'imgDescricao' src={Papyrus} />
 
-                <div className='text'>
+                <div className='papyrus'>
 
-                    <p>"Com calma e jeito chega-se ao cu <br /> de qualquer sujeito"<br />- Papyrus</p>
+                    <p>Papyrus é o irmão mais novo de Sans e um dos personagens principais em Undertale.
+                        Ele quer capturar um humano para virar um mebro da Guarda Real que, segundo ele, o encherá de popularidade.</p>
 
                 </div>
 
