@@ -8,15 +8,18 @@ const Descricao = () => {
 
         <>
 
-            <h1>Sans</h1>
+            <h1 className = 'tituloSans'>Sans</h1>
 
-            <div className='dividir'>
+            <div className='dividirSans'>
 
-                <img className = 'imgDescricao' src={Sans} />
+                <img  className='imgSans' src={Sans} />
 
-                <div className='text'>
+                <div className='sans'>
 
-                    <p>"Eis aqui uma descrição que eu irei mudar quando chegar em casa. <br></br>Thiago altere essa merda logo."<br></br>- Sans</p>
+                    <p>Sans é um personagem que apoia o jogador em alguns finais da Rota neutra, 
+                        nos que voce não mata o Papyrus (O seu irmão mais novo).
+                        e também na Rota pacifista.<br></br>Sendo o antagonista e Boss final na Rota genocida.
+                    </p>
 
                 </div>
 
@@ -27,5 +30,6 @@ const Descricao = () => {
     )
 
 }
+
 
 export default Descricao;

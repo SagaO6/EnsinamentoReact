@@ -1,20 +1,6 @@
-.perfis {
+.main img{
 
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.perfis div img {
-
-    width: 800px;
-    height: 800px;
-
-}
-
-.t-center{
-
-text-align: center;
-font-size: 50px;
+    width: 300px;
+    height: 300px;
 
 }

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius&display=swap');
+
+.tituloPapyrus {
+
+    font-family: "Delius", cursive;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 65px;
+
+}
+
+.papyrus {
+
+    font-family: "Delius", cursive;
+    width: 50%;
+    text-align: justify;
+    font-size: 36px;
+
+}
+
+.imgPapyrus {
+
+    max-width: 15%;
+    margin-right: 50px;
+    margin-left: 100px;
+    object-fit: contain;
+
+}
+
+.dividirPapyrus {
+
+display: flex;
+
+}

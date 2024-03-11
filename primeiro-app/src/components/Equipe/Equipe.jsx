@@ -1,4 +1,5 @@
 import Perfil from '../Perfil/Perfil'
+import './Equipe.css'
 
 const Equipe = (props) => {
 
@@ -6,7 +7,7 @@ const Equipe = (props) => {
 
         <>
 
-            <h1 className='t-center'>{props.titulo}</h1>
+            <h1 className='tituloEquipe'>{props.titulo}</h1>
 
             <div className='perfis'>
 

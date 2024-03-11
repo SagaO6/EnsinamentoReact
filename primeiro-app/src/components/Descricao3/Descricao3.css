@@ -1,0 +1,54 @@
+.tituloFlowey {
+
+    margin-top: 100px;
+    text-align: center;
+    font-size: 65px;
+
+}
+
+.floweyText {
+
+    overflow: hidden;
+    /*para o texto não aparecer direto*/
+
+    
+    /*Adiciona o efeito de cursor digitando*/
+    animation: typing 0.1s steps(40, end);
+
+}
+
+@keyframes typing {
+
+    from {
+        width: 0;
+    }
+
+}
+
+.flowey {
+
+    width: 50%;
+    text-align: justify;
+    font-size: 36px;
+
+}
+
+.relative{
+
+position: relative;
+width: 30%;
+
+}
+
+.imgFlowey {
+
+    max-width: 70%;
+    margin-left: 100px;
+
+}
+
+.dividirFlowey {
+
+    display: flex;
+
+}
