@@ -9,16 +9,18 @@ const Descricao = () => {
 
         <>
 
-            <h1>Sans</h1>
+            <h1 className = 'tituloSans'>Sans</h1>
 
-            <div className='dividir'>
+            <div className='dividirSans'>
 
-                <img className='imgDescricao' src={Sans} />
+                <img  className='imgSans' src={Sans} />
 
                 <div className='sans'>
 
-                    <p>Sans é o irmão mais velho de papyrus e um personagem de grande importancia em Undertale. É um persongam que apoia e ajuda o jogador em alguns finais da 
-                        Rota neutra nos que você não mata o Papyrus e na rota Pacifista sendo também o antagonista heróico e Boss final na Rota genocida </p>
+                    <p>Sans é um personagem que apoia o jogador em alguns finais da Rota neutra, 
+                        nos que voce não mata o Papyrus (O seu irmão mais novo).
+                        e também na Rota pacifista.<br></br>Sendo o antagonista e Boss final na Rota genocida.
+                    </p>
 
                 </div>
 
@@ -29,5 +31,6 @@ const Descricao = () => {
     )
 
 }
+
 
 export default Descricao;

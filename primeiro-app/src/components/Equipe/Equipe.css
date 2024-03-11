@@ -1,0 +1,14 @@
+.tituloEquipe{
+
+text-align: center;
+font-size: 70px;
+margin-bottom: 60px;
+
+}
+
+.perfis {
+
+    display: flex;
+    justify-content: space-around;
+
+}

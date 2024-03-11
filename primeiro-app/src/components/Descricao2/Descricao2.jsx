@@ -7,16 +7,18 @@ const Descricao2 = () => {
 
         <>
 
-            <h1>Papyrus</h1>
+            <h1 className='tituloPapyrus'>Papyrus</h1>
 
-            <div className='dividir'>
+            <div className='dividirPapyrus'>
 
-                <img className = 'imgDescricao' src={Papyrus} />
+                <img className='imgPapyrus' src={Papyrus} />
 
                 <div className='papyrus'>
 
-                    <p>Papyrus é o irmão mais novo de Sans e um dos personagens principais em Undertale.
-                        Ele quer capturar um humano para virar um mebro da Guarda Real que, segundo ele, o encherá de popularidade.</p>
+                    <p>Papyrus é um dos principais personagens em Undertale (também irmão mais novo de Sans).
+                        <br></br>O seu grande desejo é capturar um humano, para assim, se tornar um membro da 
+                        Guarda Real pois segundo ele, isso o encherá de popularidade.
+                    </p>
 
                 </div>
 

@@ -4,7 +4,7 @@ const Perfil = (props) => {
 
     return (
 
-        <div className='t-center'>
+        <div className='tituloPerfil'>
 
             <img src={props.img} />
             <h2>{props.titulo}</h2>

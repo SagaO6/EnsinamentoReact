@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
-h1 {
+.tituloSans {
 
+    font-family: "Comic Neue", cursive;
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
@@ -10,32 +11,25 @@ h1 {
 
 }
 
-.imgDescricao {
+.imgSans {
 
     max-width: 20%;
     margin-right: 50px;
     margin-left: 100px;
+    object-fit: contain;
 
 }
 
 .sans {
 
-    width: 50%;
     font-family: "Comic Neue", cursive;
+    max-width: 50%;
     text-align: justify;
-    margin-top: 50px;
-    font-size: 40px;
+    font-size: 36px;
 
 }
 
-.text {
-
-    margin-top: 100px;
-    font-size: 40px;
-
-}
-
-.dividir {
+.dividirSans {
 
     display: flex;
 
