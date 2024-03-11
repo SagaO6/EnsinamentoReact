@@ -10,12 +10,35 @@
 
 }
 
+
+.papyrusText {
+
+    overflow: hidden;
+    animation: typing 0.1s steps(40, end);
+
+}
+
+@keyframes typing {
+
+    from {
+        width: 0;
+    }
+
+}
+
 .papyrus {
 
     font-family: "Delius", cursive;
     width: 50%;
     text-align: justify;
     font-size: 36px;
+
+}
+
+.relative{
+
+position: relative;
+width: 30%;
 
 }
 
@@ -30,6 +53,6 @@
 
 .dividirPapyrus {
 
-display: flex;
+    display: flex;
 
 }
